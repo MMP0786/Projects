@@ -20,7 +20,8 @@
     > form {
       display: flex;
       flex-direction: column;
-      width: 60%;
+      max-width: 60%;
+      // border: 1px solid black;
      
       > .button {
         display: flex;

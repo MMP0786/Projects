@@ -1,7 +1,7 @@
 import React from 'react'
 import p1 from "../assets/3.jpg"
 import p2 from "../assets/4.jpg"
-import "../styles/services.scss"
+// import "../styles/services.scss"
 import {Carousel} from "react-responsive-carousel"
 import "react-responsive-carousel/lib/styles/carousel.min.css"
 
@@ -9,7 +9,15 @@ import "react-responsive-carousel/lib/styles/carousel.min.css"
 function Services() {
   return (
     <div className='service'>
-        <Carousel>
+        <Carousel 
+        infiniteLoop
+        autoPlay
+        showStatus ={false}
+        showArrows ={false}
+        showThumbs ={false}
+        interval={2000}
+        >
+
         <div>
           <img src={p1} alt='Item1'/>
           <p className='legend'>Full Stack</p>

@@ -33,7 +33,7 @@ function Home() {
 
     <div className='home4' id="brands">
         <div>
-            <h1>All Brands</h1>
+            <h1>Brands</h1>
             
             <article>
                 <div style={{animationDelay:"0.3s"}}>
